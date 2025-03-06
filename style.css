@@ -1,0 +1,122 @@
+.container{
+    width: 50%;
+    float: left;
+    
+}
+  .inner-container{
+    width: 50%;
+    overflow: auto;
+    
+  }
+    .name-field{
+        display: flex;
+        margin-bottom: 1%;
+        gap: 9%;
+        color: rgb(17, 16, 16);
+        width: 100%;
+    
+    }
+    #firstname{
+        width: 80%;
+    }
+#lastname{
+    width: 78%;
+}
+   form input{
+    width: 72%;
+    height:18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px;
+    
+   }
+   #email-address{
+    padding: 12px 6px;
+    width: 72%;
+   }
+   
+   form button{
+    width: 78%;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(206, 86, 176);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+
+   }
+   body{
+    font-size: medium;
+    justify-content: right;
+    background-color: rgb(245, 221, 238);
+    display: flex;
+    margin-top: 5px;
+   }
+   .names{
+    margin: -10px;
+    padding: 12px;
+    display: flex;
+   }
+
+p a{
+    color: rgb(182, 74, 176);
+    
+}
+.separator {
+    display: flex; 
+    align-items: center;
+    gap: 10px;
+    width: 76%; 
+}
+
+.separator hr {
+    flex-grow: 1; 
+    border: none; 
+    border-top: 1px solid; 
+    margin: 0; 
+}
+
+.separator span {
+    font-weight: lighter; 
+    font-size: 14px; 
+    color:dimgray;
+}
+form{
+    width: 600px;
+    height: 650px;
+    margin: 0 auto;
+    padding: 50px;
+    align-items: center;
+    border-left: solid 1px;
+    margin-top: 10px;
+}
+.image{
+    margin-left: 300px;
+}
+h1{
+    color: rgb(204, 43, 177);
+    font-size: 70px;
+    text-align: center;
+    margin-top: 10px;
+}
+.icons{
+    display:flex;
+    gap:15%;
+    margin-top: 30px;
+
+    
+}
+#facebook{
+ font-size:30px ;
+}
+#apple{
+    font-size: 30px;
+}
+#svg{
+    margin-left: 120px;
+}
+#p{
+    text-indent: 130px;
+}
